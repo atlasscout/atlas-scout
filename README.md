@@ -79,16 +79,19 @@ Key configuration options:
 - **Settings**: Adjust detection parameters and Tesseract path.
 - **Other Settings**: Other settings are used to store Colors, Strategy and Favourite Maps.
 
-## Very Important: Map Detection
+5. Run the tool
+```bash
+python main.py
+```
+
+## Very Important: Map Detection (PLEASE READ)
 
 Atlas Scout uses OpenCV's template matching algorithm to detect maps. Here's what you need to know:
 
 ### How Template Matching Works
+
 - The tool compares reference images (templates) against the game screen
 - Each template is scaled and rotated according to the settings
-
-### Important Note on Map Detection
-Currently, I am using template matching to detect maps on the screen which can be very straightforward and fast. The problem is that maps can have different layouts on the atlas, some are covered by other entities, some have structures near/on them etc., so this is making template matching harder than it should be. Because of all of this, some maps won't be detected at all (especially the ones that are almost completely hidden). In the section below you will read more about how to improve the accuracy of detection. Finally, I am working on a better method for map detection. Currently, I have a trained ML model that is detecting maps with good accuracy. Once I'm done training and fine-tuning it, I'll add it into the tool.
 
 ### Detection Challenges and Solutions
 
@@ -119,6 +122,8 @@ Currently, I am using template matching to detect maps on the screen which can b
    - Highlight the map area only
    - Save the screenshot in the refs folder
 
-
 4. **Tools still in development**
 Please keep in mind that the tool is still in development and you will face some issues and bugs.
+
+### Important Note on Map Detection
+Currently, I am using template matching to detect maps on the screen which can be very straightforward and fast. The problem is that maps can have different layouts on the atlas, some are covered by other entities, some have structures near/on them etc., so this is making template matching harder than it should be. Because of all of this, some maps won't be detected at all (especially the ones that are almost completely hidden). In the section below you will read more about how to improve the accuracy of detection. Finally, I am working on a better method for map detection. Currently, I have a trained ML model that is detecting maps with good accuracy. Once I'm done training and fine-tuning it, I'll add it into the tool.
