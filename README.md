@@ -28,6 +28,9 @@ https://github.com/user-attachments/assets/b222a630-92ed-4fd6-85c1-1e8b0572ae71
 - Favorite Maps
 https://github.com/user-attachments/assets/d542fb41-a821-4aa7-b010-f2a7f09f3b13
 
+## IMPORTANT NOTE
+
+Some people mentioned that if the mouse automatically moves around, then this is **bannable** by GGG, I dont know how accurate this is but please be aware. If you want to use the tool without the automatic mouse movement, then dont use the Automatic Scan. You can still use the manual scan and achieve the same thing.
 
 ## Installation
 
