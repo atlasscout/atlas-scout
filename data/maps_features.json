@@ -1,0 +1,28 @@
+{
+    "features": {
+        "endgame_activities": {
+        "display_name": "Endgame Activities",
+        "items": {
+            "Breach": "Breach",
+            "Delirium": "Delirium",
+            "Expedition": "Expedition",
+            "Ritual": "Ritual"
+            }
+        },
+        "map_mods": {
+            "display_name": "Mods",
+            "items": {
+                "Corruption": "Corrupted",
+                "Irradiated": "Irradiated"
+            }
+        },
+        "map_layout": {
+            "display_name": "Map Layout",
+            "items": {
+                "Linear": "Linear",
+                "Open": "Open",
+                "Maze": "Maze"                
+            }
+        }
+    }    
+}

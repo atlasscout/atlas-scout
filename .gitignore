@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+venv/
+
+# Logs
+*.log
+data/logs/
+

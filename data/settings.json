@@ -1,0 +1,48 @@
+{
+    "keybinds": {
+        "scan_all": "alt+1",
+        "scan_hovered": "alt+2",
+        "clear_overlay": "alt+3",
+        "toggle_window": "alt+s",
+        "exit": "alt+esc"
+    },
+    "favorite_maps": [],
+    "colors": {
+        "Linear": "#000080",
+        "Open": "#a483fc",
+        "Maze": "#ff0006",
+        "Hideout": "#565e46"
+    },
+    "strategy": {
+        "endgame_activities": {
+            "Breach": false,
+            "Delirium": false,
+            "Expedition": false,
+            "Ritual": false,
+            "Corruption": false,
+            "Irradiated": false
+        },
+        "map_layouts": {
+            "Linear": false,
+            "Maze": false,
+            "Open": false
+        },
+        "misc": {
+            "only_favorites": false,
+            "contains_boss": false,
+            "apply_strategy_to_single": false
+        }
+    },
+    "settings": {
+        "refs_folder": "data/refs/1080p/*.png",
+        "scales": [
+            0.9,
+            1.0,
+            1.1
+        ],
+        "rotations": [
+            0
+        ],
+        "tesseract_cmd_location": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+    }
+}
