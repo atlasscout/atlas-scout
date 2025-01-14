@@ -11,16 +11,23 @@ A tool for Path of Exile 2 that helps identify and analyze maps on the Atlas.
 
 ## Atlas Scout in action
 - Automatic Scanning
+https://github.com/user-attachments/assets/00f063ff-e555-4440-849a-9b6686d8392a
 
 - Automatic Scanning with Strategy
+https://github.com/user-attachments/assets/eb9fc6c1-2bca-4f49-b9dd-73924128e8f5
 
 - Manual Scanning
+https://github.com/user-attachments/assets/d88984a6-6a0f-460a-9bc2-b55777652e98
 
 - Manual Scanning with Strategy
+https://github.com/user-attachments/assets/92bdc728-a7f3-48ef-8e73-ff2b3f2105d4
 
 - Colors
+https://github.com/user-attachments/assets/b222a630-92ed-4fd6-85c1-1e8b0572ae71
 
 - Favorite Maps
+https://github.com/user-attachments/assets/d542fb41-a821-4aa7-b010-f2a7f09f3b13
+
 
 ## Installation
 
@@ -81,8 +88,7 @@ Atlas Scout uses OpenCV's template matching algorithm to detect maps. Here's wha
 - Each template is scaled and rotated according to the settings
 
 ### Important Note on Map Detection
-Currently, I am using template matching to detect maps on the screen which can be very straightforward and fast. The problem is that maps can have different layouts on the atlas, some are covered by other entities, some have structures near/on them etc., so this is making template matching harder than it should be. Because of all of this, some maps won't be detected at all (especially the ones that are almost completely hidden). In the section below you will read more about how to improve the accuracy of detection.
-Finally, I am working on a better method for map detection. Currently, I have a trained ML model that is detecting maps with good accuracy (check video below). Once I'm done training and fine-tuning it, I'll add it into the tool.
+Currently, I am using template matching to detect maps on the screen which can be very straightforward and fast. The problem is that maps can have different layouts on the atlas, some are covered by other entities, some have structures near/on them etc., so this is making template matching harder than it should be. Because of all of this, some maps won't be detected at all (especially the ones that are almost completely hidden). In the section below you will read more about how to improve the accuracy of detection. Finally, I am working on a better method for map detection. Currently, I have a trained ML model that is detecting maps with good accuracy. Once I'm done training and fine-tuning it, I'll add it into the tool.
 
 ### Detection Challenges and Solutions
 
